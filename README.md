@@ -4,9 +4,9 @@ describe('empty spec', () => {
     cy.visit('/user/login')
 
     cy.get('#normal_login_email')
-      .type('snehoda@gmail.com')
+      .type('s...a@gmail.com')
     cy.get('#normal_login_password')
-      .type('merdoc1981')
+      .type('m....1')
     cy.get('[type=submit]')
       .click()
 
